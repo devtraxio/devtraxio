@@ -635,6 +635,7 @@ section h3.section-subheading {
 .team-member img {
     margin: 0 auto;
     border: 7px solid #fff;
+    max-height: 150px;
 }
 
 .team-member h4 {
