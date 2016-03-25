@@ -158,7 +158,7 @@ googleAnalytics = "UA-75491060-1"
 		[[params.team.members]]
 			img = "sont.jpg"
 			name = "Daniel Sont"
-			position = "Developer"
+			position = "Co-founder, Developer"
 			social = [
 				["fa-twitter", "https://twitter.com/ds0nt"],
 				["fa-facebook", "https://www.facebook.com/daniel.sont.75"],
@@ -168,7 +168,7 @@ googleAnalytics = "UA-75491060-1"
 		[[params.team.members]]
 			img = "johnston.jpg"
 			name = "Josh Johnston"
-			position = "Developer"
+			position = "Co-founder, Developer"
 			social = [
 				# ["fa-twitter", "#"],
 				["fa-facebook", "https://www.facebook.com/joshua.johnston.73"],
@@ -178,7 +178,7 @@ googleAnalytics = "UA-75491060-1"
 		[[params.team.members]]
 			img = "evans.jpg"
 			name = "Jeremy Evans"
-			position = "Developer"
+			position = "Co-founder, Developer"
 			social = [
 				["fa-twitter", "https://twitter.com/SpaceHexagon"],
 				["fa-facebook", "https://www.facebook.com/VirtualJer"],
