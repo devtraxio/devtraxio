@@ -38,8 +38,8 @@ googleAnalytics = "UA-75491060-1"
 	[params.navigation]
 		brand = "Devtrax"
 		services = "Services"
-		portfolio = "Portfolio"
-		about = "About"
+		# portfolio = "Portfolio"
+		# about = "About"
 		team = "Team"
 		contact = "Contact"
 
@@ -54,10 +54,10 @@ googleAnalytics = "UA-75491060-1"
     #    weight = 10
 
     # postpended links
-    [[menu.postpend]]
-        url = "http://gohugo.io"
-        name = "External link"
-        weight = 10
+    # [[menu.postpend]]
+    #     url = "http://gohugo.io"
+    #     name = "External link"
+    #     weight = 10
 
 
 	# Hero section
@@ -65,7 +65,7 @@ googleAnalytics = "UA-75491060-1"
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
 		title = "Welcome To Devtrax!"
-		subtitle = "A Bleeding-Edge Development Studio"
+		subtitle = "Advanced Technical Solutions"
 		buttonText = "Tell me more"
 
 
@@ -92,10 +92,10 @@ googleAnalytics = "UA-75491060-1"
                 icon = "fa-lock"
                 title = "Systems Development"
                 description = "We use technologies such as Golang, Nodejs and PHP to create information systems and automate business processes. We also take care of deployment infrastructure and maintenance."
-								
+
 	# Portfolio section
 	[params.portfolio]
-        enable = true
+        enable = false
 		# All projects defined in their own files. You can find example projects
 		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
 		# at the root of this Hugo site.
@@ -112,7 +112,7 @@ googleAnalytics = "UA-75491060-1"
 
     # About section
 	[params.about]
-        enable = true
+        enable = false
 		title = "About"
 		subtitle = "Lorem ipsum dolor sit amet consectetur."
 		endpoint = "Be part<br>of our<br>story!"
@@ -148,45 +148,46 @@ googleAnalytics = "UA-75491060-1"
 	# Team section
 	[params.team]
         enable = true
-		title = "Our amazing team"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
-		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+		title = "The Team"
+		subtitle = "The trio of nerds, here to serve!"
+		description = "You're all developers? Yes! We are all developers at heart. But we also do our own design, marketting, sales, and business too!"
 
 		# All team member's pictures are stored under 'static/img/team'.
 		# Replace them with your own too.
+
 		[[params.team.members]]
-			img = "1.jpg"
-			name = "Kay Garland"
-			position = "Lead Designer"
+			img = "sont.jpg"
+			name = "Daniel Sont"
+			position = "Developer"
 			social = [
-				["fa-twitter", "#"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
+				["fa-twitter", "https://twitter.com/ds0nt"],
+				["fa-facebook", "https://www.facebook.com/daniel.sont.75"],
+				["fa-linkedin", "https://www.linkedin.com/in/danielsont"]
 			]
 
 		[[params.team.members]]
-			img = "2.jpg"
-			name = "Larry Parker"
-			position = "Lead Marketer"
+			img = "johnston.jpg"
+			name = "Josh Johnston"
+			position = "Developer"
 			social = [
-				["fa-twitter", "#"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
+				# ["fa-twitter", "#"],
+				["fa-facebook", "https://www.facebook.com/joshua.johnston.73"],
+				# ["fa-linkedin", "#"]
 			]
 
 		[[params.team.members]]
-			img = "3.jpg"
-			name = "Diana Pertersen"
-			position = "Lead Developer"
+			img = "evans.jpg"
+			name = "Jeremy Evans"
+			position = "Developer"
 			social = [
-				["fa-twitter", "#"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
+				["fa-twitter", "https://twitter.com/SpaceHexagon"],
+				["fa-facebook", "https://www.facebook.com/VirtualJer"],
+				["fa-linkedin", "https://www.linkedin.com/in/jeremyevans7"]
 			]
 
 	# Client section
     [params.clients_list]
-        enable = true
+        enable = false
 
     	# All the clients' logos are stored under 'static/img/logos'.
     	# Replace them with your clients's logos.
@@ -211,7 +212,7 @@ googleAnalytics = "UA-75491060-1"
 	[params.contact]
         enable = true
 		title = "Contact us"
-		subtitle  = "Lorem ipsum dolor sit amet consectetur."
+		subtitle  = "Inquire about what we can do for you."
 		buttonText = "Send message"
 
 		# 'warning' defines error messages for invalid inputs
@@ -235,24 +236,24 @@ googleAnalytics = "UA-75491060-1"
 	# Footer section
 	[params.footer]
         enable = true
-		copyright = "Published under the Apache License 2.0."
+		copyright = ""
 
 		[[params.footer.social]]
 			icon = "fa-twitter"
-			link = "#"
+			link = "https://twitter.com/devtrax"
 
 		[[params.footer.social]]
 			icon = "fa-facebook"
-			link = "#"
-
-		[[params.footer.social]]
-			icon = "fa-linkedin"
-			link = "#"
-
-		[[params.footer.quicklinks]]
-			text = "Privacy Policy"
-			link = "#"
-
-		[[params.footer.quicklinks]]
-			text = "Terms of Use"
-			link = "#"
+			link = "https://www.facebook.com/devtraxio"
+		#
+		# [[params.footer.social]]
+		# 	icon = "fa-linkedin"
+		# 	link = "#"
+		#
+		# [[params.footer.quicklinks]]
+		# 	text = "Privacy Policy"
+		# 	link = "#"
+		#
+		# [[params.footer.quicklinks]]
+		# 	text = "Terms of Use"
+		# 	link = "#"
