@@ -176,7 +176,7 @@ googleAnalytics = "UA-75491060-1"
 			]
 
 		[[params.team.members]]
-			img = "evans.jpg"
+			img = "https://datahexagon.com/jeremy/Pylon/Screenshot_92.png"
 			name = "Jeremy Evans"
 			position = "Co-founder, Developer"
 			social = [
